@@ -61,13 +61,13 @@ export class Ui {
     <div class="col-md-3">
         <img src="${data.screenshots[1].image}" class="w-100" alt="shot 1">
     </div>
-    <div class="col-md-3">
-        <img src="${data.screenshots[2].image}" class="w-100" alt="shot 1">
-    </div>
-    <div class="col-md-3">
-        <img src="${data.screenshots[3].image}" class="w-100" alt="shot 1">
-    </div>
-</div>`;
+//     <div class="col-md-3">
+//         <img src="${data.screenshots[2].image}" class="w-100" alt="shot 1">
+//     </div>
+//     <div class="col-md-3">
+//         <img src="${data.screenshots[3].image}" class="w-100" alt="shot 1">
+//     </div>
+// </div>`;
 
     document.getElementById("details").innerHTML = detailsBox;
     // console.log(document.getElementById("details"));
