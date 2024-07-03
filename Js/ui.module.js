@@ -54,20 +54,8 @@ export class Ui {
                     <p class="text-white">${data.description}</p>
                       <a class="btn btn-outline-warning" target="_blank" href="${data.game_url}">Show Game</a>
                  </div>
-                 <div class="row py-5 g-3">
-    <div class="screenshots col-md-3">
-        <img src="${data.screenshots[0].image}" class="w-100" alt="shot 1">
-    </div>
-    <div class="col-md-3">
-        <img src="${data.screenshots[1].image}" class="w-100" alt="shot 1">
-    </div>
-//     <div class="col-md-3">
-//         <img src="${data.screenshots[2].image}" class="w-100" alt="shot 1">
-//     </div>
-//     <div class="col-md-3">
-//         <img src="${data.screenshots[3].image}" class="w-100" alt="shot 1">
-//     </div>
-// </div>`;
+
+                `;
 
     document.getElementById("details").innerHTML = detailsBox;
     // console.log(document.getElementById("details"));
