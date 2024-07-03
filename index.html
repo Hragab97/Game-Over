@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TITLE -->
+    <title>Game Over</title>
+    <!-- ICON -->
+    <link rel="icon" href="./Assets/logo-sm.png">
+    <!-- STYLES -->
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="Css/fontawesome.min.css">
+    <!-- main -->
+    <link rel="stylesheet" href="Css/styles.css">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="gamesPage">
+        <!-- HEADER -->
+        <header>
+            <img src="./Assets/wraper.png" class="w-100" alt="games image">
+        </header>
+        <!-- NAVBAR -->
+        <nav class="navbar position-sticky top-0 w-75 m-auto navbar-expand-lg  rounded-5 ">
+            <div class="container">
+                <div class="navbar-brand text-white">
+                    <img src="./Assets/logo-sm.png" alt="logo" /> GAME REVIEWS
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse small navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu small text-center">
+                        <li class="nav-item ">
+                            <a role="button" class="nav-link active text-uppercase text-white" aria-current="page"
+                                data-category="mmorpg">mmorpg</a>
+                        </li>
+                        <li class="nav-item">
+                            <a role="button" class="nav-link text-uppercase text-white"
+                                data-category="shooter">shooter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a role="button" class="nav-link text-uppercase text-white"
+                                data-category="sailing">sailing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a role="button" class="nav-link text-uppercase text-white"
+                                data-category="permadeath">permadeath</a>
+                        </li>
+                        <li class="nav-item">
+                            <a role="button" class="nav-link text-uppercase text-white"
+                                data-category="superhero">superhero</a>
+                        </li>
+                        <li class="nav-item">
+                            <a role="button" class="nav-link text-uppercase text-white" data-category="pixel">pixel</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- GAME CARDS -->
+        <div class="container w-auto text-center">
+            <div class="row gy-5 my-5 text-center" id="gamesDisplay">
+
+            </div>
+        </div>
+
+        <div class="sk-chase">
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+        </div>
+
+
+    </div>
+        <!-- GAME DETAILS -->
+        <div class="details text-white d-none">
+            <div class="sk-chaseDetail">
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+            </div>
+            <div class="container">
+               <header class="hstack justify-content-between">
+                  <h1 class="text-center h3 py-4">Details Game</h1>
+                  <button class="btn-close btn-close-white" id="btnClose"></button>
+               </header>
+               <div class="row g-3 " id="details">
+              
+               </div>
+            </div>
+         </div>
+
+<div class="row g-3">
+
+</div>
+    <!-- JAVASCRIPT -->
+    <!-- bootstrap -->
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <!-- main -->
+    <script src="./Js/main.js" type="module"></script>
+</body>
+
+</html>
